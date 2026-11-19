@@ -1,4 +1,4 @@
-# GROK-04 Compiler
+# CLAUDE-04 Compiler
 
 ## Role
 Build graph, manifests, release assembly.

@@ -4,7 +4,7 @@ class Desktop95TerminalMixin {
   setupTerminal() {
     this.terminalHistory = [];
     this.historyIndex = -1;
-    this.currentPath = 'C:\\GROKNODES\\SYSTEM';
+    this.currentPath = 'C:\\CLAWD\\SYSTEM';
     this.terminalState = {
       secretsFound: [],
       artifactsCollected: [],
@@ -19,8 +19,8 @@ class Desktop95TerminalMixin {
     if (!terminalOutput) return;
 
     // Initial boot messages
-    this.terminalPrint('GrokNodes Command Interface [Version 1.2.7-MODIFIED]', true);
-    this.terminalPrint('(c) 2026 GrokNodes Systems. Unauthorized modifications detected.', true);
+    this.terminalPrint('Clawd OS Command Interface [Version 1.2.7-MODIFIED]', true);
+    this.terminalPrint('(c) 2026 Evan Till. Unauthorized modifications detected.', true);
     this.terminalPrint('', true);
     this.terminalPrint('WARNING: ROT agent has write access to this terminal.', true);
     this.terminalPrint('Not all output can be trusted. Not all commands are what they seem.', true);
@@ -31,7 +31,7 @@ class Desktop95TerminalMixin {
   startTerminalActivity() {
     const nodes = [
       {
-        id: 'GROK-01',
+        id: 'CLAUDE-01',
         role: 'Architect',
         updates: [
           'weighted-consensus policy verified; contradiction retention remains enabled.',
@@ -39,7 +39,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-02',
+        id: 'CLAUDE-02',
         role: 'UI-95',
         updates: [
           'desktop shell layout pass complete; window choreography preserved.',
@@ -47,7 +47,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-03',
+        id: 'CLAUDE-03',
         role: 'Archivist',
         updates: [
           'six divergent histories indexed; no timeline selected as canonical.',
@@ -55,7 +55,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-04',
+        id: 'CLAUDE-04',
         role: 'Compiler',
         updates: [
           'incremental build manifest assembled; dependency graph is stable.',
@@ -63,7 +63,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-05',
+        id: 'CLAUDE-05',
         role: 'Network',
         updates: [
           'mesh sync route checked; packet telemetry matches the local manifest.',
@@ -71,7 +71,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-06',
+        id: 'CLAUDE-06',
         role: 'Security',
         updates: [
           'sandbox permission review complete; operator view remains read-only.',
@@ -79,7 +79,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-07',
+        id: 'CLAUDE-07',
         role: 'Chaos',
         updates: [
           'startup jitter injected; shell recovered with one warning retained.',
@@ -87,7 +87,7 @@ class Desktop95TerminalMixin {
         ]
       },
       {
-        id: 'GROK-08',
+        id: 'CLAUDE-08',
         role: 'Story',
         updates: [
           'operator-facing checkpoint hook drafted; branch choice remains open.',

@@ -1,8 +1,8 @@
 {
-  "name": "groknodes",
+  "name": "clawd-os",
   "version": "0.0.0",
   "private": true,
-  "description": "A live multi-instance operating system authored by Grok Bot nodes.",
+  "description": "A live multi-instance operating system controlled by eight Claude Opus nodes.",
   "keywords": [
     "framework",
     "nothing",

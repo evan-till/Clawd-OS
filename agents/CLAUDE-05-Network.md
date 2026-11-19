@@ -1,4 +1,4 @@
-# GROK-05 Network
+# CLAUDE-05 Network
 
 ## Role
 IPC routing, sync protocol, packet telemetry.

@@ -23,7 +23,7 @@ window.DESKTOP95_CONTENT = {
           size: '9KB',
           modified: '2026-08-20 08:00',
           type: 'CRITICAL',
-          content: `[GROK MESH MANIFEST]\n\nactive_nodes: 8\nnode_roles:\n- GROK-01: Architect\n- GROK-02: UI-95\n- GROK-03: Archivist\n- GROK-04: Compiler\n- GROK-05: Network\n- GROK-06: Security\n- GROK-07: Chaos\n- GROK-08: Story\n\nmerge_policy: weighted_consensus\ncontradiction_retention: enabled\npublic_operator_view: enabled`
+          content: `[CLAUDE MESH MANIFEST]\n\nactive_nodes: 8\nnode_roles:\n- CLAUDE-01: Architect\n- CLAUDE-02: UI-95\n- CLAUDE-03: Archivist\n- CLAUDE-04: Compiler\n- CLAUDE-05: Network\n- CLAUDE-06: Security\n- CLAUDE-07: Chaos\n- CLAUDE-08: Story\n\nmerge_policy: weighted_consensus\ncontradiction_retention: enabled\npublic_operator_view: enabled`
         },
         {
           name: 'consensus_engine.md',
@@ -82,7 +82,7 @@ window.DESKTOP95_CONTENT = {
           size: '12KB',
           modified: '2026-08-20 08:49',
           type: 'LOG',
-          content: `[GROK-NET] this interface is assembled by multiple nodes\n[GROK-NET] disagreement is tracked, not deleted\n[GROK-NET] inspect before you trust`
+          content: `[CLAUDE-NET] this interface is assembled by multiple nodes\n[CLAUDE-NET] disagreement is tracked, not deleted\n[CLAUDE-NET] inspect before you trust`
         }
       ]
     },
@@ -94,7 +94,7 @@ window.DESKTOP95_CONTENT = {
           size: '7KB',
           modified: '2026-08-20 08:52',
           type: 'TEXT',
-          content: `NODE SIGNATURES\n\nGROK-01: conservative, system-first\nGROK-02: interface-obsessed\nGROK-03: context-preserving\nGROK-04: automation-heavy\nGROK-05: sync-minded\nGROK-06: risk-focused\nGROK-07: adversarial tester\nGROK-08: narrative compositor`
+          content: `NODE SIGNATURES\n\nCLAUDE-01: conservative, system-first\nCLAUDE-02: interface-obsessed\nCLAUDE-03: context-preserving\nCLAUDE-04: automation-heavy\nCLAUDE-05: sync-minded\nCLAUDE-06: risk-focused\nCLAUDE-07: adversarial tester\nCLAUDE-08: narrative compositor`
         },
         {
           name: 'handoff_notes.md',

@@ -1,4 +1,4 @@
-# GROK-07 Chaos
+# CLAUDE-07 Chaos
 
 ## Role
 Fault injection, contradiction tests, edge-case pressure.
